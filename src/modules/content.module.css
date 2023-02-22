@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / 70% no-repeat #000 url("../img/earth.png");
+}
+
+
+.title{
+    padding: 5vw 0 2vw 0;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.link{
+    padding: 5vw 0 5vw 0;
+    transform: rotate(-1.8deg);
+}
+.link a{
+    text-decoration: none;
+    color: #E4E4E4;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0.4rem;
+    background-color: #850000;
+
+}

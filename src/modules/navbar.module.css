@@ -1,0 +1,6 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #E4E4E4;
+    padding: 1.5% 5%;
+}

@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw 1vw 5vw 1vw;
+    height: 30vh;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .link a{
+    text-decoration: none;
+    color: #E4E4E4;
+    padding: 0 0.5rem;
+}
+.link img {
+    width: 30px;
+    height: 30px;
+}

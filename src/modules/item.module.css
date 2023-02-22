@@ -1,0 +1,42 @@
+.info p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info nav{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #850000;
+    padding: 0.4rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 5vw;
+    object-fit: contain;
+    scale: 0.9;
+}
+
+.info, .cost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-1.8deg);
+}
+.cost nav{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item{
+    display: flex;
+    position: relative;
+    max-height: 10vh;
+    margin: 1.5vw 0;
+    justify-content: space-between;
+    width: 40%;
+}
