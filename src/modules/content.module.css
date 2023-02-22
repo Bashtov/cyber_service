@@ -1,5 +1,6 @@
 .content{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@
 }
 
 .link{
-    padding: 5vw 0 5vw 0;
+    margin: 5vw 0 5vw 0;
     transform: rotate(-1.8deg);
 }
 .link a{
@@ -25,5 +26,8 @@
     font-weight: 600;
     padding: 0.4rem;
     background-color: #850000;
-
+    transition-duration: 0.4s ;
+}
+.link a:hover{
+    background-color: #a90000;
 }

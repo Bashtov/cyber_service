@@ -21,19 +21,7 @@ export function Main(){
                     </div>
                 
                     <div className={styles.button}>
-                        <button style={{
-                            backgroundColor: "#E4E4E4",
-                            border: "none",
-                            borderRadius: "25px",
-                            color: "black",
-                            padding: "15px 22px",
-                            textAlign: "center",
-                            textDecoration: "none",
-                            display: "inline-block",
-                            fontSize: "16px",
-                            margin: "4px 2px",
-                            cursor: "pointer",
-                        }}>БЫСТРАЯ КОНСУЛЬТАЦИЯ</button>
+                        <button>БЫСТРАЯ КОНСУЛЬТАЦИЯ</button>
                         <p style={{
                             fontWeight: "300",
                             fontSize: "12px",
